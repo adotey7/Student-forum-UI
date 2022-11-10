@@ -22,7 +22,7 @@ class Profile extends StatelessWidget {
                   Container(
                     height: height * 0.25,
                     width: double.infinity,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       image: DecorationImage(
                         image: AssetImage('assets/fl.png'),
                       ),
