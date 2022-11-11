@@ -43,11 +43,11 @@ class StudentForum extends StatelessWidget {
       title: 'Flutter Demo',
       initialRoute: WelcomeScreen.welcomeScreen,
       routes: {
-        WelcomeScreen.welcomeScreen: (context) => WelcomeScreen(),
-        Login.login: (context) => Login(),
-        Onboarding.onboarding: (context) => Onboarding(),
-        SignUp.signUp: (context) => SignUp(),
-        Home.home: (context) => Home(),
+        WelcomeScreen.welcomeScreen: (context) => const WelcomeScreen(),
+        Login.login: (context) => const Login(),
+        Onboarding.onboarding: (context) => const Onboarding(),
+        SignUp.signUp: (context) => const SignUp(),
+        Home.home: (context) => const Home(),
       },
     );
   }

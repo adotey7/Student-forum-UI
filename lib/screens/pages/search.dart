@@ -17,7 +17,7 @@ class Search extends StatelessWidget {
                   hintText: 'Search something...',
                   suffixIcon: IconButton(
                     onPressed: () {},
-                    icon: Icon(Icons.search),
+                    icon: const Icon(Icons.search),
                   ),
                   suffixIconColor: kMainBodyColor,
                 ),

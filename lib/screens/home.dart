@@ -24,7 +24,7 @@ class _HomeState extends State<Home> {
     });
   }
 
-  List<Widget> pages = [
+  List<Widget> pages = const [
     Homepage(),
     Search(),
     AddPost(),

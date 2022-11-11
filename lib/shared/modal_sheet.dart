@@ -32,7 +32,7 @@ class _ModalSheetState extends State<ModalSheet> {
                 height: 40,
                 child: TextField(
                   decoration: kFields.copyWith(
-                    label: Text('Type a comment...'),
+                    label: const Text('Type a comment...'),
                   ),
                 ),
               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:student_forum/components/custom_button.dart';
 import 'package:student_forum/components/logo.dart';
 import 'package:student_forum/screens/login_screen.dart';
-import 'package:student_forum/utilities/constant.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -12,7 +11,6 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
 
     return Scaffold(
       body: SafeArea(
@@ -24,7 +22,7 @@ class WelcomeScreen extends StatelessWidget {
                   height: 20,
                 ),
               ),
-              Logo(
+              const Logo(
                 customWidth: 0.40,
               ),
               Text(

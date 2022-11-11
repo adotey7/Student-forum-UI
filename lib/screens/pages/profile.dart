@@ -91,8 +91,8 @@ class Profile extends StatelessWidget {
               SizedBox(
                 height: height * 0.12,
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Text(
                   'Details',
                   style: TextStyle(
@@ -101,27 +101,27 @@ class Profile extends StatelessWidget {
                   ),
                 ),
               ),
-              ProfileTile(
+              const ProfileTile(
                 label: 'Student',
                 icon: Icons.business_center,
               ),
-              ProfileTile(
+              const ProfileTile(
                 label: 'Went to Nunsec (Abladei)',
                 icon: Icons.school,
               ),
-              ProfileTile(
+              const ProfileTile(
                 label: 'Went to Ghana Communication Technology',
                 icon: Icons.school,
               ),
-              ProfileTile(
+              const ProfileTile(
                 label: 'Lives in Tema, Ghana',
                 icon: Icons.home,
               ),
-              ProfileTile(
+              const ProfileTile(
                 label: 'From Accra, Ghana',
                 icon: Icons.location_pin,
               ),
-              ProfileTile(
+              const ProfileTile(
                 label: 'Single',
                 icon: Icons.favorite,
               ),

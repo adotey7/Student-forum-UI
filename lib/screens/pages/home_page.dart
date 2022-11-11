@@ -94,7 +94,7 @@ as at now..  Any Suggestions?
                       isScrollControlled: true,
                       backgroundColor: Colors.transparent,
                       builder: (BuildContext context) {
-                        return ModalSheet();
+                        return const ModalSheet();
                       });
                 },
               ),
@@ -105,7 +105,7 @@ as at now..  Any Suggestions?
               ),
             ],
           ),
-          SizedBox(
+          const SizedBox(
             width: double.infinity,
             child: Divider(
               thickness: 2,
